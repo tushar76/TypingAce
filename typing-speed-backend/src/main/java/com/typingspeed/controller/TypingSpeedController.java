@@ -49,3 +49,4 @@ public class TypingSpeedController {
         return ResponseEntity.ok(Map.of("speedWPM", (int)Math.round(speedWPM), "accuracy", accuracy));
     }
 }
+
