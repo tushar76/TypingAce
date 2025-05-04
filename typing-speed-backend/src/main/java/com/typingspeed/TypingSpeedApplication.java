@@ -10,3 +10,4 @@ public class TypingSpeedApplication {
         SpringApplication.run(TypingSpeedApplication.class, args);
     }
 }
+// No functional changes - triggering PR for review setup
