@@ -1,4 +1,9 @@
   /* General layout */
+
+  /*Change History - .typing-speed-container
+  Added blur effect, gradient background, and spacing enhancements for improved UI.
+   Set up full-height flex layout with padding and gap for better responsiveness.
+   Updated color to white for text clarity on dark background. */
   .typing-speed-container {
     display: flex;
     height: 100vh;
@@ -23,12 +28,17 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(12px);
   }
-  
+
+/* 
+  Change History - Heading & Text Area Spacing
+   Increased bottom margin of heading for better spacing between heading and text area.
+   Applied fadeInDown animation for smooth entrance effect*/
   .typing-left h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     animation: fadeInDown 1s ease;
   }
+
   
   /* Text Area */
   .typing-area-large {
@@ -40,7 +50,7 @@
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
-    resize: none;
+    resize: none; /*Applied 'resize: none' to prevent manual resizing, preserving layout consistency.*/
     outline: none;
     box-shadow: inset 0 0 10px #00000055;
     transition: all 0.3s ease;
@@ -170,3 +180,4 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  
