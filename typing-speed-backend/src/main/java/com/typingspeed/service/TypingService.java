@@ -15,3 +15,4 @@ public class TypingService {
         return resultRepository.save(result);
     }
 }
+// No functional changes - triggering PR for review setup

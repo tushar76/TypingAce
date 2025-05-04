@@ -35,9 +35,10 @@ public class TypingSpeedController {
         // Save result
         typingService.saveResult(result);
 
-        // Return the response with WPM
+        // Returns the response with WPM
         return ResponseEntity.ok(Map.of(
             "speedWPM", (int) Math.round(speedWPM)
         ));
     }
 }
+// No functional changes - triggering PR for review setup

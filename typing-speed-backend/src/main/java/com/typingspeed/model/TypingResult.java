@@ -8,3 +8,5 @@ public class TypingResult {
     private String typedText;
     private double wpm; 
 }
+
+// No functional changes - triggering PR for review setup
